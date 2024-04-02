@@ -28,5 +28,3 @@ st.markdown("""
         Junte-se a nós nesta jornada emocionante de transformação e inovação.
     """)
 
-# Rodapé
-st.write("Em cada dado, uma história. Em cada história, uma vida transformada. Juntos, damos passos mágicos em direção a um futuro de esperança e inovação.")
