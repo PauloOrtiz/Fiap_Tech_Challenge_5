@@ -1,8 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="Dashboard - Passos Mágicos", layout="wide")
-
+st.set_page_config(page_title="Dashboard - Passos Mágicos")
+ 
 # Título da página
 st.title("Dashboard de Análise de Dados - Passos Mágicos")
 
