@@ -5,10 +5,6 @@ st.set_page_config(page_title="Introdução e Objetivos - Passos Mágicos")
 with open("./src/css/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-# Título
-st.title("Introdução e Objetivos do Projeto Passos Mágicos")
-
-
 st.markdown("""
         # Bem-vindo à Nova Era da Associação Passos Mágicos
 
