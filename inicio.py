@@ -8,34 +8,29 @@ with open("./src/css/style.css") as f:
 # Título
 st.title("Introdução e Objetivos do Projeto Passos Mágicos")
 
-# Seção de Introdução
-st.header("Introdução")
-st.write("""
-O projeto 'Passos Mágicos' representa uma iniciativa inovadora de transformação digital para uma organização dedicada a causas sociais significativas. Surgiu da necessidade de modernizar os processos de coleta, gestão e análise de dados, buscando uma maior eficiência e impacto nas ações da organização.
-""")
 
-# Seção de Objetivos
-st.header("Objetivos do Projeto")
-st.write("""
-Os principais objetivos do projeto incluem:
-- **Automatização de Formulários:** Utilizar Microsoft Forms para otimizar a coleta de dados.
-- **Integração e Automatização de Processos:** Implementar o Power Automate para assegurar uma transferência eficiente de dados para o SharePoint.
-- **Melhoria na Gestão de Dados:** Aproveitar as capacidades do SharePoint para armazenar e gerenciar dados de forma centralizada e segura.
-- **Análise Avançada de Dados:** Utilizar o Power BI para transformar dados coletados em insights valiosos e relatórios interativos.
-- **Impacto Social:** Contribuir para a eficácia e eficiência das decisões e ações da 'Passos Mágicos', potencializando seu impacto social.
-""")
+st.markdown("""
+        # Bem-vindo à Nova Era da Associação Passos Mágicos
 
-# Seção de Contexto
-st.header("Contexto de Desenvolvimento")
-st.write("""
-Este projeto nasceu de uma datathon, onde o desafio era utilizar tecnologia para solucionar problemas reais enfrentados por organizações sem fins lucrativos. A 'Passos Mágicos' foi escolhida como beneficiária desta iniciativa, dada a sua importante missão social e a necessidade evidente de uma transformação digital.
-""")
+        Desde 1992, a Associação Passos Mágicos vem sendo uma luz guia na transformação da vida de crianças e jovens de Embu-Guaçu, oferecendo não apenas educação de qualidade, mas também assistência psicológica e uma visão ampliada do mundo. Idealizada por Michelle Flues e Dimetri Ivanoff, a associação começou sua jornada mágica em orfanatos e, em 2016, ampliou seu alcance, tornando-se um farol de esperança e mudança.
 
-# Seção de Expectativas
-st.header("Expectativas para o Futuro")
-st.write("""
-Esperamos que este projeto não apenas melhore os processos internos da 'Passos Mágicos', mas também inspire outras organizações a adotarem tecnologias digitais para ampliar seu impacto social. Acreditamos que a transformação digital é uma poderosa alavanca para o avanço social e estamos entusiasmados para ver as mudanças positivas que ela trará.
-""")
+        ## Nosso Projeto: Digitalização para Ampliar Horizontes
+
+        Com o apoio da FIAP em um projeto de pós-graduação, nós embarcamos em uma missão vital: transformar a maneira como a "Passos Mágicos" coleta e analisa dados. Movidos pelo desejo de otimizar os processos e trazer eficiência, reformulamos o sistema de 260 formulários no Google Forms para um modelo mais enxuto e poderoso, integrando apenas três formulários essenciais ao SharePoint. Esta inovação não só simplifica a coleta de dados, mas também facilita a análise, permitindo à associação focar ainda mais em seu objetivo principal: transformar vidas.
+
+        ### Objetivos: Tecnologia a Serviço da Transformação Social
+
+        Nossa meta com este projeto é clara:
+        - **Redução de Complexidade:** Minimizar a quantidade de formulários para facilitar o gerenciamento de dados.
+        - **Automatização e Integração:** Utilizar as ferramentas da Microsoft, incluindo Forms, Power Automate e Power BI, para automatizar o fluxo de dados e gerar análises profundas e insights.
+        - **Impacto Ampliado:** Permitir que a equipe de "Passos Mágicos" dedique mais tempo e recursos àquilo que fazem de melhor - transformar a vida de jovens e crianças.
+
+        #### O Futuro é Agora
+
+        Este projeto não é apenas uma mudança de sistema; é um passo em direção a um futuro onde cada criança e jovem de Embu-Guaçu tem a oportunidade de realizar seus sonhos. É uma jornada para tornar a "Passos Mágicos" ainda mais eficiente, eficaz e equipada para ser uma agente de mudança transformadora nas vidas que toca.
+
+        Junte-se a nós nesta jornada emocionante de transformação e inovação.
+    """)
 
 # Rodapé
 st.write("Em cada dado, uma história. Em cada história, uma vida transformada. Juntos, damos passos mágicos em direção a um futuro de esperança e inovação.")
