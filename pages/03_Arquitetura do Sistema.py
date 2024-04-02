@@ -1,5 +1,5 @@
 import streamlit as st
-import PIL as Image
+from PIL import Image
 
 # Definindo o layout da página
 st.set_page_config(page_title="Arquitetura do Sistema - Passos Mágicos")
