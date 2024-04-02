@@ -1,10 +1,13 @@
 import streamlit as st
 
 # Definindo o layout da página
-st.set_page_config(page_title="Passos Mágicos - Transformação Digital", layout="wide")
+st.set_page_config(page_title="Passos Mágicos - Transformação Digital")
 
 # Título
 st.title("Bem-vindo à Transformação Digital de 'Passos Mágicos'")
+
+with open("./src/css/style.css") as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Introdução com Storytelling
 st.write("""
@@ -18,20 +21,6 @@ com a ajuda das ferramentas da Microsoft – Forms, Power Automate, SharePoint e
 dispersos em histórias de sucesso, ideias em ações, e desafios em soluções. Cada formulário preenchido, cada 
 dado processado, e cada insight gerado no Power BI, não é apenas um número; é uma vida, um sonho, um passo em 
 direção a um futuro brilhante.
-""")
-
-# Botão de Navegação
-if st.button("Comece a Explorar"):
-    st.write("Navegue pelas seções para descobrir mais sobre o projeto...")
-
-# Sumário
-st.header("Sumário")
-st.write("""
-- Introdução e Objetivos
-- Requisitos e Visão Geral da Solução
-- Arquitetura e Implementação
-- Dicionário de Dados
-- Storytelling Interativo
 """)
 
 # Rodapé
