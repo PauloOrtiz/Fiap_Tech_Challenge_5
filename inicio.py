@@ -6,7 +6,7 @@ with open("./src/css/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 st.markdown("""
-        # Bem-vindo à Nova Era da Associação Passos Mágicoss
+        # Bem-vindo à Nova Era da Associação Passos Mágicos
 
         Desde 1992, a Associação Passos Mágicos vem sendo uma luz guia na transformação da vida de crianças e jovens de Embu-Guaçu, oferecendo não apenas educação de qualidade, mas também assistência psicológica e uma visão ampliada do mundo. Idealizada por Michelle Flues e Dimetri Ivanoff, a associação começou sua jornada mágica em orfanatos e, em 2016, ampliou seu alcance, tornando-se um farol de esperança e mudança.
 
