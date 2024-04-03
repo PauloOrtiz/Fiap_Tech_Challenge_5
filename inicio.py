@@ -27,7 +27,7 @@ st.markdown("""
         
         """)
 
-youtube_url = "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+youtube_url = "https://www.youtube.com/watch?v=kYSGp_Sx9OM"
 
 st.video(youtube_url)
 
