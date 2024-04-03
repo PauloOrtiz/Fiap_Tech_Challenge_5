@@ -8,11 +8,20 @@ with open("./src/css/style.css") as f:
 
 st.title("Detalhamento da Implementação - Passos Mágicos")
 
-    # Introdução à Implementação
-st.header("Visão Geral da Implementação")
-st.write("""
-Este segmento da documentação foca no detalhamento técnico da implementação do projeto 'Passos Mágicos'. 
-Abordaremos cada etapa do processo, desde a criação de formulários digitais até a análise de dados no Power BI.
+
+
+# Introdução à Implementação
+st.header("Mergulhe nos Detalhes da Implementação")
+st.markdown("""
+#### 🚀 Descubra Como a Magia Acontece em 'Passos Mágicos'
+
+Bem-vindo à espinha dorsal tecnológica de nosso projeto revolucionário! Nesta seção, vamos levá-lo por trás das cortinas para revelar **cada passo crucial** na jornada de transformação dos dados em 'Passos Mágicos'.
+
+🔍 **Da Teoria à Prática:** Acompanhe-nos na fascinante jornada desde o esboço inicial dos formulários digitais, passando pela incrível orquestração de dados automatizada pelo Power Automate, até a culminância no mundo vibrante de análises e insights fornecidos pelo Power BI.
+
+💡 **Transparência e Engajamento:** Nosso objetivo aqui é não apenas informar, mas também inspirar. Queremos que você veja a inovação e o pensamento estratégico em cada decisão técnica e sinta o mesmo entusiasmo que tivemos ao criar estas soluções.
+
+Prepare-se para explorar o coração pulsante da nossa missão, onde a tecnologia encontra o propósito social, e juntos, criam algo verdadeiramente mágico!
 """)
 
 # Seção de Automatização dos Formulários
