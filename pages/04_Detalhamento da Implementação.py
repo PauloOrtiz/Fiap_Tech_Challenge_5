@@ -41,8 +41,8 @@ with tab2:
     🔗 **Acesse Nossos Formulários:** 
     Prontos para ver nossos formulários em ação? Confira-os nos links abaixo e veja como a simplicidade encontra a eficácia:
     - [Formulário IPP](https://forms.office.com/e/VFx55t2zPU)
-    - [https://forms.office.com/e/DqpdiN0sjQ](Questionário IPV)
-    - [https://forms.office.com/e/jFuixbVhG3](Questionário IPS)
+    - [Questionário IPV](https://forms.office.com/e/DqpdiN0sjQ)
+    - [Questionário IPS](https://forms.office.com/e/jFuixbVhG3)
 
     Cada clique, cada resposta coletada, nos aproxima mais de nosso objetivo de transformação social através da 'Passos Mágicos'.
     """, unsafe_allow_html=True)
