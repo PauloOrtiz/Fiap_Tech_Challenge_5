@@ -35,7 +35,7 @@ st.markdown("""
 
         ## Referências 📚
 
-            Em construção
+        **Documentação do Streamlit**. Disponível em: https://docs.streamlit.io/. Acesso em: 20 de Fevereiro de 2024.
                
         Gostaríamos de expressar nossa gratidão a todas estas fontes por disponibilizar esses dados publicamente.
         """, unsafe_allow_html=True)

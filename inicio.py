@@ -21,10 +21,22 @@ st.markdown("""
         - **Automatização e Integração:** Utilizar as ferramentas da Microsoft, incluindo Forms, Power Automate e Power BI, para automatizar o fluxo de dados e gerar análises profundas e insights.
         - **Impacto Ampliado:** Permitir que a equipe de "Passos Mágicos" dedique mais tempo e recursos àquilo que fazem de melhor - transformar a vida de jovens e crianças.
 
+        ### Assista ao Nosso Vídeo no YouTube
+    
+        Confira este vídeo incrível que explica mais sobre o projeto 'Passos Mágicos'
+        
+        """)
+
+youtube_url = "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+
+st.video(youtube_url)
+
+
+st.markdown(""" 
         #### O Futuro é Agora
 
         Este projeto não é apenas uma mudança de sistema; é um passo em direção a um futuro onde cada criança e jovem de Embu-Guaçu tem a oportunidade de realizar seus sonhos. É uma jornada para tornar a "Passos Mágicos" ainda mais eficiente, eficaz e equipada para ser uma agente de mudança transformadora nas vidas que toca.
 
         Junte-se a nós nesta jornada emocionante de transformação e inovação.
-    """)
+     """)
 
