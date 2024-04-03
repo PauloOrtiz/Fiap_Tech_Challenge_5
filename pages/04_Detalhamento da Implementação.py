@@ -1,7 +1,12 @@
 import streamlit as st
+from PIL import Image
+
 
 # Definindo o layout da página
 st.set_page_config(page_title="Detalhamento da Implementação - Passos Mágicos")
+
+image = ("/src/img/Capa_pagina01.jpg")
+st.image = Image.open(image)
 
 with open("./src/css/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
@@ -28,11 +33,21 @@ with tab1:
     """)
 
 with tab2:
-    st.header("Automatização dos Formulários")
-    st.write("""
-    - **Microsoft Forms:** Criação de formulários digitais customizados para coletar dados relevantes.
-    - **Configuração:** Detalhes sobre a estrutura dos formulários, tipos de perguntas e opções de resposta.
-    """)
+    st.header("Automatização dos Formulários: A Arte da Coleta de Dados")
+    st.markdown("""
+    Em nossa jornada para revolucionizar a 'Passos Mágicos', os formulários digitais no Microsoft Forms desempenham um papel fundamental. Eles são a ponte que nos conecta às informações cruciais, e cada um foi cuidadosamente desenhado para capturar os dados mais relevantes de maneira eficiente e intuitiva.
+
+    📝 **Personalização e Precisão:** 
+    Cada formulário foi habilmente personalizado para atender às necessidades específicas do projeto. Navegue pelas estruturas únicas de cada um, com uma variedade de tipos de perguntas e opções de resposta, projetadas para maximizar a precisão e relevância dos dados coletados.
+
+    🔗 **Acesse Nossos Formulários:** 
+    Prontos para ver nossos formulários em ação? Confira-os nos links abaixo e veja como a simplicidade encontra a eficácia:
+    - [https://forms.office.com/e/VFx55t2zPU](Formulário IPP)
+    - [https://forms.office.com/e/DqpdiN0sjQ](Questionário IPV)
+    - [https://forms.office.com/e/jFuixbVhG3](Questionário IPS)
+
+    Cada clique, cada resposta coletada, nos aproxima mais de nosso objetivo de transformação social através da 'Passos Mágicos'.
+    """, unsafe_allow_html=True)
 
 with tab3: 
     st.header("Integração com Power Automate")
