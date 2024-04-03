@@ -1,5 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components
+from PIL import Image
+
+image =  Image.open("./src/img/Capa_pagina01.jpg")
+st.image(image)
 
 st.set_page_config(page_title="Dashboard - Passos Mágicos")
  
