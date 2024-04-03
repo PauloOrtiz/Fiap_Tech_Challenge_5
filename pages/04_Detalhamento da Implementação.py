@@ -23,6 +23,9 @@ with tab1:
 
     Prepare-se para explorar o coração pulsante da nossa missão, onde a tecnologia encontra o propósito social, e juntos, criam algo verdadeiramente mágico!
     """)
+    st.write("""
+    A implementação detalhada destaca como a tecnologia pode ser utilizada para otimizar processos, melhorar a gestão de dados e fornecer insights valiosos, alavancando o impacto social de 'Passos Mágicos'.
+    """)
 
 with tab2:
     st.header("Automatização dos Formulários")
@@ -53,9 +56,7 @@ with tab5:
     """)
 
 # Conclusão
-st.write("""
-A implementação detalhada destaca como a tecnologia pode ser utilizada para otimizar processos, melhorar a gestão de dados e fornecer insights valiosos, alavancando o impacto social de 'Passos Mágicos'.
-""")
+
 
 
 
