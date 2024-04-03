@@ -5,8 +5,8 @@ from PIL import Image
 # Definindo o layout da página
 st.set_page_config(page_title="Detalhamento da Implementação - Passos Mágicos")
 
-image = ("/src/img/Capa_pagina01.jpg")
-st.image = Image.open(image)
+image =  Image.open("/src/img/Capa_pagina01.jpg")
+st.image(image)
 
 with open("./src/css/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
