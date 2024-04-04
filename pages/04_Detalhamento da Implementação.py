@@ -53,11 +53,37 @@ with tab2:
     """, unsafe_allow_html=True)
 
 with tab3: 
-    st.header("Integração com Power Automate")
-    st.write("""
-    - **Fluxos de Automação:** Descrição dos fluxos criados no Power Automate para capturar e processar as respostas dos formulários.
-    - **Processamento de Dados:** Explicação dos cálculos e transformações aplicados aos dados coletados.
-    """)
+    st.header("Integração Revolucionária com Power Automate")
+    st.markdown("""
+    ### O Coração da Automação
+
+    A magia por trás da eficiência de nossos formulários reside na integração com o Power Automate, uma ferramenta poderosa que transforma respostas simples em dados profundos e acionáveis.
+
+    #### 🚀 Automatizando com Inteligência:
+    - **Trigger de Início:** Cada vez que um formulário é respondido, o Power Automate entra em ação, iniciando com o gatilho "When a new response is submitted".
+    - **Captura de Detalhes:** A ação "Get response details" é o primeiro passo para a magia acontecer, coletando cada resposta dada.
+
+    #### 🔢 Cálculo de Índices - A Alquimia dos Dados:
+    - Para cada questão dos formulários, uma variável é criada, transformando respostas textuais em números predeterminados pela 'Passos Mágicos'.
+    - A culminância desse processo é uma variável final, calculando a média dessas respostas, oferecendo uma visão quantitativa única das informações coletadas.
+
+    #### 💾 Armazenamento Estratégico no SharePoint:
+    - As respostas dos formulários e os cálculos são armazenados meticulosamente em listas no SharePoint, tanto na forma textual integral quanto na forma de índices calculados.
+
+    ### Material de Apoio e Exemplos Práticos:
+    Abaixo, você encontrará materiais que exemplificam nosso processo e proporcionam uma compreensão mais profunda do trabalho realizado.
+
+    #### 📥 Faça o Download do Exemplo de Fluxo no Power Automate:
+    - [Baixar Exemplo de Fluxo do Power Automate (arquivo WinRAR)](link_para_download)
+
+    #### 📊 Tabelas de Índices - Entendendo os Números:
+    Compreenda como cada resposta nos formulários é convertida em um índice numérico valioso. Cada formulário possui sua própria lógica de pontuação:
+    - **Tabela de Índices do Formulário 1:** Detalhes aqui.
+    - **Tabela de Índices do Formulário 2:** Detalhes aqui.
+    - **Tabela de Índices do Formulário 3:** Detalhes aqui.
+
+    Explore estes recursos e veja como dados simples são transformados em poderosos insights!
+    """, unsafe_allow_html=True)
 
 with tab4:
     st.header("Armazenamento de Dados no SharePoint")
