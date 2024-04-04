@@ -2,10 +2,15 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
+st.set_page_config(page_title="Dashboard - Passos Mágicos")
+
+with open("./src/css/style.css") as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
 image =  Image.open("./src/img/Capa_pagina01.jpg")
 st.image(image)
 
-st.set_page_config(page_title="Dashboard - Passos Mágicos")
+
  
 # Título da página
 st.title("Dashboard de Análise de Dados - Passos Mágicos")

@@ -1,13 +1,15 @@
 import streamlit as st
 from PIL import Image
 
-image =  Image.open("./src/img/Capa_pagina01.jpg")
-st.image(image)
-# Definindo o layout da página
 st.set_page_config(page_title="Dicionário de Dados - Passos Mágicos")
 
 with open("./src/css/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+image =  Image.open("./src/img/Capa_pagina01.jpg")
+st.image(image)
+# Definindo o layout da página
+
 
 
 st.title("Dicionário de Dados - Passos Mágicos")

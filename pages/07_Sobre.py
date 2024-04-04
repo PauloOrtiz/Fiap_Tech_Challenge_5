@@ -6,6 +6,12 @@ st.set_page_config(page_title="Sobre", page_icon=":exclamation:")
 with open("./src/css/style.css") as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+image =  Image.open("./src/img/Capa_pagina01.jpg")
+st.image(image)
+
+
+
+
 
 st.markdown("""
         # Sobre o Projeto
