@@ -42,6 +42,8 @@ st.markdown("""
         **Documentação da Microsoft**. Disponível em: https://learn.microsoft.com/. Acesso em: 20 de Fevereiro de 2024.
             
         **Site da Passos Magicos**. Disponível em: https://passosmagicos.org.br/. Acesso em: 20 de Fevereiro de 2024. 
+        
+        **SILVA, Dario Rodrigues da. Pesquisa Extensiva de Desenvolvimento Educacional - PEDE 2022. Associação Passos Mágicos. São Paulo, p.217. 2023.**
                
         Gostaríamos de expressar nossa gratidão a todas estas fontes por disponibilizar esses dados publicamente.
         """, unsafe_allow_html=True)
