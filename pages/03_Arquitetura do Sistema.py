@@ -7,7 +7,7 @@ st.set_page_config(page_title="Arquitetura do Sistema - Passos Mágicos")
 with open("./src/css/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-image =  Image.open("./src/img/Capa_pagina01.jpg")
+image =  Image.open("./src/img/Sistema.jpg")
 st.image(image)
 
 
@@ -25,7 +25,7 @@ Este sistema integrado proporciona uma solução eficiente e escalável para ate
 # Inclusão dos Diagramas
 st.subheader("Diagrama da Arquitetura do Sistema")
 
-image = Image.open("./src/img/Diagrama.png")
+image = Image.open("./src/img/Arquitetura.jpg")
 st.image(image)
 
 # Descrição dos Componentes do Sistema

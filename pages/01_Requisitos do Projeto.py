@@ -8,7 +8,7 @@ st.set_page_config(page_title="Requisitos do Projeto - Passos Mágicos")
 with open("./src/css/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-image =  Image.open("./src/img/Capa_pagina01.jpg")
+image =  Image.open("./src/img/Requisito.jpg")
 st.image(image)
 
 

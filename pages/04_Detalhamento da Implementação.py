@@ -8,7 +8,7 @@ st.set_page_config(page_title="Detalhamento da Implementação - Passos Mágicos
 with open("./src/css/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-image =  Image.open("./src/img/Capa_pagina01.jpg")
+image =  Image.open("./src/img/Implementacao.jpg")
 st.image(image)
 
 
@@ -78,7 +78,10 @@ with tab3:
 
     #### 📊 Tabelas de Índices - Entendendo os Números:
     Compreenda como cada resposta nos formulários é convertida em um índice numérico valioso. Cada formulário possui sua própria lógica de pontuação:
-    - **Tabela de Índices do Formulário 1:** Detalhes aqui.
+    - **Tabela de Índices do Formulário 1:**
+        image =  Image.open("./src/img/Capa_pagina01.jpg")
+        st.image(image)
+
     - **Tabela de Índices do Formulário 2:** Detalhes aqui.
     - **Tabela de Índices do Formulário 3:** Detalhes aqui.
 
