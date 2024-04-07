@@ -80,15 +80,15 @@ with tab3:
     Compreenda como cada resposta nos formulários é convertida em um índice numérico valioso. Cada formulário possui sua própria lógica de pontuação:
     - **Tabela de Índices do Formulário 1:**
     """, unsafe_allow_html=True)
-    image1 = Image.open("/src/img/tabela IPP.png")
+    image1 = Image.open("/src/img/tabela_IPP.png")
     st.image(image1, caption= "Tabela IPP - Gerado pela Passos Magicos")
     st.markdown("""- **Tabela de Índices do Formulário 2:** Detalhes aqui.
     """, unsafe_allow_html=True)
-    image2 = Image.open("/src/img/tabela IPS.png")
+    image2 = Image.open("/src/img/tabela_IPS.png")
     st.image(image2, caption= "Tabela IPS - Gerado pela Passos Magicos")
     st.markdown("""- **Tabela de Índices do Formulário 3:** Detalhes aqui.
     """, unsafe_allow_html=True)
-    image3 = Image.open("/src/img/tabela IPV.png")
+    image3 = Image.open("/src/img/tabele_IPV.png")
     st.image(image3, caption= "Tabela IPV - Gerado pela Passos Magicos")
     st.markdown("""Explore estes recursos e veja como dados simples são transformados em poderosos insights!
     """, unsafe_allow_html=True)
