@@ -132,28 +132,28 @@ with tab4:
     - **Imagens das Tabelas:** Abaixo, você encontrará capturas de tela das nossas tabelas no SharePoint, oferecendo uma visão clara de como os dados são organizados:
     """, unsafe_allow_html=True)
     image4 = Image.open("./src/img/Tabela_Aluno.PNG")
-    st.image(image4, caption= "Tabela IPV - Gerado pela Passos Magicos")
+    st.image(image4, caption= "Tabela Aluno - Gerado pelo grupo")
 
-    image5 = Image.open("./src/img/tabele_IPV.png")
-    st.image(image5, caption= "Tabela IPV - Gerado pela Passos Magicos")
+    image5 = Image.open("./src/img/Tabela_Turmas.PNG")
+    st.image(image5, caption= "Tabela Turmas - Gerado pelo grupo")
 
-    image6 = Image.open("./src/img/tabele_IPV.png")
-    st.image(image6, caption= "Tabela IPV - Gerado pela Passos Magicos")
+    image6 = Image.open("./src/img/tabela_Formulario_IPP.PNG")
+    st.image(image6, caption= "Tabela Formulario IPP - Gerado pelo grupo")
 
-    image7 = Image.open("./src/img/tabele_IPV.png")
-    st.image(image7, caption= "Tabela IPV - Gerado pela Passos Magicos")
+    image7 = Image.open("./src/img/tabela_Formulario_IPS.PNG")
+    st.image(image7, caption= "Tabela Formulario IPS - Gerado pelo grupo")
 
-    image8 = Image.open("./src/img/tabele_IPV.png")
-    st.image(image8, caption= "Tabela IPV - Gerado pela Passos Magicos")
+    image8 = Image.open("./src/img/tabela_Formulario_IPV.PNG")
+    st.image(image8, caption= "Tabela Formulario IPV - Gerado pelo grupo")
 
-    image9 = Image.open("./src/img/tabele_IPV.png")
-    st.image(image9, caption= "Tabela IPV - Gerado pela Passos Magicos")
+    image9 = Image.open("./src/img/tabela_Indice_IPP.PNG")
+    st.image(image9, caption= "Tabela Indice IPP - Gerado pelo grupo")
 
-    image10 = Image.open("./src/img/tabele_IPV.png")
-    st.image(image10, caption= "Tabela IPV - Gerado pela Passos Magicos")
+    image10 = Image.open("./src/img/tabela_Indice_IPS.PNG")
+    st.image(image10, caption= "Tabela Indice IPS - Gerado pelo grupo")
 
-    image11 = Image.open("./src/img/tabele_IPV.png")
-    st.image(image11, caption= "Tabela IPV - Gerado pela Passos Magicos")
+    image11 = Image.open("./src/img/tabela_Indice_IPV.PNG")
+    st.image(image11, caption= "Tabela Indice IPV - Gerado pelo grupo")
 
     st.markdown("""       
     Mergulhe nos detalhes e veja como organizamos nossos dados para maximizar o impacto e a eficiência de nossas iniciativas!
