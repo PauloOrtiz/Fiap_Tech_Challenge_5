@@ -131,7 +131,7 @@ with tab4:
     #### 🖼️ Uma Visão Clara com Imagens:
     - **Imagens das Tabelas:** Abaixo, você encontrará capturas de tela das nossas tabelas no SharePoint, oferecendo uma visão clara de como os dados são organizados:
     """, unsafe_allow_html=True)
-    image4 = Image.open("./src/img/Tabela_Aluno.png")
+    image4 = Image.open("./src/img/Tabela_Aluno.PNG")
     st.image(image4, caption= "Tabela IPV - Gerado pela Passos Magicos")
 
     image5 = Image.open("./src/img/tabele_IPV.png")
