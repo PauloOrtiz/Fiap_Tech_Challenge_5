@@ -179,7 +179,7 @@ with tab5:
     """, unsafe_allow_html=True)
     
     image12 = Image.open("./src/img/diagrama_powerbi.png")
-    st.image(image11, caption= "Diagrama de tabela no power bi - Gerado pelo grupo")
+    st.image(image12, caption= "Diagrama de tabela no power bi - Gerado pelo grupo")
 
     st.markdown("""
     #### 🚀 Para uma Experiência Imersiva:
