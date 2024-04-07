@@ -93,6 +93,18 @@ with tab3:
     st.markdown("""Explore estes recursos e veja como dados simples são transformados em poderosos insights!
     """, unsafe_allow_html=True)
     
+    file_path = './src/data/FormularioIPP_20240407122026.zip'
+
+    # Lendo o arquivo em modo binário
+    with open(file_path, "rb") as file:
+        btn = st.download_button(
+                label="Download do arquivo",
+                data=file,
+                file_name="arquivo.zip",
+                mime="application/octet-stream"
+            )
+
+
 
 with tab4:
     st.header("Armazenamento de Dados no SharePoint")
