@@ -74,8 +74,21 @@ with tab3:
     Abaixo, você encontrará materiais que exemplificam nosso processo e proporcionam uma compreensão mais profunda do trabalho realizado.
 
     #### 📥 Faça o Download do Exemplo de Fluxo no Power Automate:
-    - [Baixar Exemplo de Fluxo do Power Automate (arquivo WinRAR)](link_para_download)
+    """, unsafe_allow_html=True)
 
+    file_path = './src/data/FormularioIPP_20240407122026.zip'
+
+    # Lendo o arquivo em modo binário
+    with open(file_path, "rb") as file:
+        btn = st.download_button(
+                label="Baixar Exemplo de Fluxo do Power Automate (arquivo zip)",
+                data=file,
+                file_name="Codigo da automação.zip",
+                mime="application/octet-stream"
+            )
+
+
+    st.markdown("""
     #### 📊 Tabelas de Índices - Entendendo os Números:
     Compreenda como cada resposta nos formulários é convertida em um índice numérico valioso. Cada formulário possui sua própria lógica de pontuação:
     - **Tabela de Índices do Formulário 1:**
@@ -93,17 +106,7 @@ with tab3:
     st.markdown("""Explore estes recursos e veja como dados simples são transformados em poderosos insights!
     """, unsafe_allow_html=True)
     
-    file_path = './src/data/FormularioIPP_20240407122026.zip'
-
-    # Lendo o arquivo em modo binário
-    with open(file_path, "rb") as file:
-        btn = st.download_button(
-                label="Download do arquivo",
-                data=file,
-                file_name="arquivo.zip",
-                mime="application/octet-stream"
-            )
-
+    
 
 
 with tab4:
