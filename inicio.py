@@ -26,6 +26,7 @@ st.markdown("""
         - **Redução de Complexidade:** Minimizar a quantidade de formulários para facilitar o gerenciamento de dados.
         - **Automatização e Integração:** Utilizar as ferramentas da Microsoft, incluindo Forms, Power Automate e Power BI, para automatizar o fluxo de dados e gerar análises profundas e insights.
         - **Impacto Ampliado:** Permitir que a equipe de "Passos Mágicos" dedique mais tempo e recursos àquilo que fazem de melhor - transformar a vida de jovens e crianças.
+        - **Acompanhamento em larga escala:** possibilitar os psicólogos identificarem com maior agilidade alunos que apresentam variações de comportamento e/ou problemas psicológicos através de um modelo de análise de sentimento.
 
         ### Assista ao Nosso Vídeo no YouTube
     
