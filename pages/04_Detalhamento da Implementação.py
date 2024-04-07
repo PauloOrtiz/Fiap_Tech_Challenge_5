@@ -21,7 +21,7 @@ tab1, tab2 , tab3, tab4, tab5 = st.tabs(['Introdução', 'Formularios', 'Power A
 with tab1: 
     st.header("Mergulhe nos Detalhes da Implementação")
     st.markdown("""
-    #### 🚀 Descubra Como a Magia Acontece em 'Passos Mágicos'
+    #### 🚀 Descubra Como a Magia Acontece em Passos Mágicos
 
     Bem-vindo à espinha dorsal tecnológica de nosso projeto revolucionário! Nesta seção, vamos levá-lo por trás das cortinas para revelar **cada passo crucial** na jornada de transformação dos dados em 'Passos Mágicos'.
 
