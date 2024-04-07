@@ -79,14 +79,20 @@ with tab3:
     #### 📊 Tabelas de Índices - Entendendo os Números:
     Compreenda como cada resposta nos formulários é convertida em um índice numérico valioso. Cada formulário possui sua própria lógica de pontuação:
     - **Tabela de Índices do Formulário 1:**
-        image =  Image.open("./src/img/Capa_pagina01.jpg")
-        st.image(image)
-
-    - **Tabela de Índices do Formulário 2:** Detalhes aqui.
-    - **Tabela de Índices do Formulário 3:** Detalhes aqui.
-
-    Explore estes recursos e veja como dados simples são transformados em poderosos insights!
     """, unsafe_allow_html=True)
+    image1 = Image.open("/src/img/tabela IPP.png")
+    st.image(image1, caption= "Tabela IPP - Gerado pela Passos Magicos")
+    st.markdown("""- **Tabela de Índices do Formulário 2:** Detalhes aqui.
+    """, unsafe_allow_html=True)
+    image2 = Image.open("/src/img/tabela IPS.png")
+    st.image(image2, caption= "Tabela IPS - Gerado pela Passos Magicos")
+    st.markdown("""- **Tabela de Índices do Formulário 3:** Detalhes aqui.
+    """, unsafe_allow_html=True)
+    image3 = Image.open("/src/img/tabela IPV.png")
+    st.image(image3, caption= "Tabela IPV - Gerado pela Passos Magicos")
+    st.markdown("""Explore estes recursos e veja como dados simples são transformados em poderosos insights!
+    """, unsafe_allow_html=True)
+    
 
 with tab4:
     st.header("Armazenamento de Dados no SharePoint")
