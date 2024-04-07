@@ -6,7 +6,7 @@ st.set_page_config(page_title="Dicionário de Dados - Passos Mágicos")
 with open("./src/css/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-image =  Image.open("./src/img/Dicionario.jpg")
+image =  Image.open("./src/img/dicionario.jpg")
 st.image(image)
 # Definindo o layout da página
 
