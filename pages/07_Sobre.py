@@ -40,6 +40,8 @@ st.markdown("""
         **Documentação do Streamlit**. Disponível em: https://docs.streamlit.io/. Acesso em: 20 de Fevereiro de 2024.
         
         **Documentação da Microsoft**. Disponível em: https://learn.microsoft.com/. Acesso em: 20 de Fevereiro de 2024.
+            
+        **Site da Passos Magicos**. Disponível em: https://passosmagicos.org.br/. Acesso em: 20 de Fevereiro de 2024. 
                
         Gostaríamos de expressar nossa gratidão a todas estas fontes por disponibilizar esses dados publicamente.
         """, unsafe_allow_html=True)
