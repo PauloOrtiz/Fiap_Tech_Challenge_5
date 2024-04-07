@@ -130,11 +130,32 @@ with tab4:
 
     #### 🖼️ Uma Visão Clara com Imagens:
     - **Imagens das Tabelas:** Abaixo, você encontrará capturas de tela das nossas tabelas no SharePoint, oferecendo uma visão clara de como os dados são organizados:
-    - [Imagem da Tabela Alunos]
-    - [Imagem da Tabela Turmas]
-    - [Imagens das Tabelas de Resposta dos Formulários]
-    - [Imagens das Tabelas de Índice]
+    """, unsafe_allow_html=True)
+    image4 = Image.open("./src/img/Tabela_Aluno.png")
+    st.image(image4, caption= "Tabela IPV - Gerado pela Passos Magicos")
 
+    image5 = Image.open("./src/img/tabele_IPV.png")
+    st.image(image5, caption= "Tabela IPV - Gerado pela Passos Magicos")
+
+    image6 = Image.open("./src/img/tabele_IPV.png")
+    st.image(image6, caption= "Tabela IPV - Gerado pela Passos Magicos")
+
+    image7 = Image.open("./src/img/tabele_IPV.png")
+    st.image(image7, caption= "Tabela IPV - Gerado pela Passos Magicos")
+
+    image8 = Image.open("./src/img/tabele_IPV.png")
+    st.image(image8, caption= "Tabela IPV - Gerado pela Passos Magicos")
+
+    image9 = Image.open("./src/img/tabele_IPV.png")
+    st.image(image9, caption= "Tabela IPV - Gerado pela Passos Magicos")
+
+    image10 = Image.open("./src/img/tabele_IPV.png")
+    st.image(image10, caption= "Tabela IPV - Gerado pela Passos Magicos")
+
+    image11 = Image.open("./src/img/tabele_IPV.png")
+    st.image(image11, caption= "Tabela IPV - Gerado pela Passos Magicos")
+
+    st.markdown("""       
     Mergulhe nos detalhes e veja como organizamos nossos dados para maximizar o impacto e a eficiência de nossas iniciativas!
     """, unsafe_allow_html=True)
 
@@ -144,9 +165,3 @@ with tab5:
     - **Integração com Power BI:** Processo de importação e tratamento dos dados do SharePoint no Power BI.
     - **Visualizações e Dashboards:** Descrição das visualizações de dados criadas, incluindo tipos de gráficos e insights fornecidos.
     """)
-
-# Conclusão
-
-
-
-
