@@ -73,7 +73,7 @@ with tab3:
     ### Material de Apoio e Exemplos Práticos:
     Abaixo, você encontrará materiais que exemplificam nosso processo e proporcionam uma compreensão mais profunda do trabalho realizado.
 
-    #### 📥 Faça o Download do Exemplo de Fluxo no Power Automate:
+    #### 📥 Faça o Download do Exemplo de Fluxo no Power Automate:  
     """, unsafe_allow_html=True)
 
     file_path = './src/data/FormularioIPP_20240407122026.zip'
@@ -110,11 +110,33 @@ with tab3:
 
 
 with tab4:
-    st.header("Armazenamento de Dados no SharePoint")
-    st.write("""
-    - **Configuração do SharePoint:** Como as listas e tabelas foram estruturadas para armazenar dados coletados dos formulários.
-    - **Mapeamento de Dados:** Detalhes sobre o relacionamento entre os dados dos formulários e as listas no SharePoint.
-    """)
+    st.header("Armazenamento de Dados Avançado no SharePoint")
+    st.markdown("""
+    ### 📚 Organizando Dados com Precisão e Eficiência
+
+    O SharePoint desempenha um papel vital em nossa missão com 'Passos Mágicos', atuando como o repositório central para os dados que moldam o futuro das crianças e jovens. A escolha desta ferramenta não foi aleatória; ela oferece uma integração impecável com o Power BI, o que facilita uma transição suave dos dados para a análise.
+
+    #### 🌐 Configuração Detalhada do SharePoint:
+    - **Tabelas Estratégicas:** Criamos estruturas de tabelas e listas meticulosamente planejadas para cada tipo de dado coletado.
+    - **Tabela Alunos:** Contém informações detalhadas dos alunos, como matrícula, nome, turma, sexo e idade.
+    - **Tabela Turmas:** Registra informações das turmas, incluindo código e nome.
+    - **Formulários e Tabelas de Índice:** Para cada formulário, temos uma tabela correspondente de respostas e uma tabela de índices.
+
+    #### 🔗 Mapeamento de Dados - A Arte de Criar Conexões:
+    - Cada dado coletado nos formulários encontra seu caminho e propósito em nossas tabelas no SharePoint. O mapeamento é feito com precisão, garantindo que cada peça de informação esteja no lugar certo.
+
+    #### 🚀 Por Que SharePoint?
+    - **Sinergia com Power BI:** Uma das razões fundamentais para escolher o SharePoint é sua facilidade de integração com o Power BI. Essa combinação permite que transformemos dados brutos em insights valiosos e visuais interativos de forma rápida e eficaz.
+
+    #### 🖼️ Uma Visão Clara com Imagens:
+    - **Imagens das Tabelas:** Abaixo, você encontrará capturas de tela das nossas tabelas no SharePoint, oferecendo uma visão clara de como os dados são organizados:
+    - [Imagem da Tabela Alunos]
+    - [Imagem da Tabela Turmas]
+    - [Imagens das Tabelas de Resposta dos Formulários]
+    - [Imagens das Tabelas de Índice]
+
+    Mergulhe nos detalhes e veja como organizamos nossos dados para maximizar o impacto e a eficiência de nossas iniciativas!
+    """, unsafe_allow_html=True)
 
 with tab5:
     st.header("Análise de Dados com Power BI")
