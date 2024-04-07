@@ -49,7 +49,7 @@ with tab2:
     - [Questionário IPV](https://forms.office.com/e/DqpdiN0sjQ)
     - [Questionário IPS](https://forms.office.com/e/jFuixbVhG3)
 
-    Cada clique, cada resposta coletada, nos aproxima mais de nosso objetivo de transformação social através da 'Passos Mágicos'.
+    Cada clique, cada resposta coletada, nos aproxima mais de nosso objetivo de transformação social através da Passos Mágicos.
     """, unsafe_allow_html=True)
 
 with tab3: 
