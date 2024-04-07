@@ -160,8 +160,30 @@ with tab4:
     """, unsafe_allow_html=True)
 
 with tab5:
-    st.header("Análise de Dados com Power BI")
-    st.write("""
-    - **Integração com Power BI:** Processo de importação e tratamento dos dados do SharePoint no Power BI.
-    - **Visualizações e Dashboards:** Descrição das visualizações de dados criadas, incluindo tipos de gráficos e insights fornecidos.
-    """)
+    st.header("Decifrando Dados: A Magia do Power BI")
+    st.markdown("""
+    ### 🔍 Desvendando Histórias por Trás dos Números
+
+    Na 'Passos Mágicos', transformamos dados em histórias e insights, e o Power BI é nosso fiel escudeiro nessa jornada de descoberta. Vamos mergulhar em como os dados do SharePoint ganham vida no Power BI, revelando padrões, tendências e oportunidades.
+
+    #### 🔄 Do SharePoint ao Power BI:
+    - **Fluxo de Dados Refinado:** A integração começa com a importação meticulosa dos dados armazenados no SharePoint. Nosso processo assegura que cada dado seja tratado e refinado, preparando o palco para análises profundas.
+    - **Transformação e Enriquecimento de Dados:** Cada número, cada resposta é mais do que um dado; é uma peça do quebra-cabeça que montamos no Power BI.
+
+    #### 📊 Construindo Dashboards Impactantes:
+    - **Narrativas Visuais Poderosas:** Nos dashboards, cada gráfico, cada visualização é uma história. Utilizamos uma variedade de gráficos para ilustrar as nuances dos dados - desde gráficos de barra e linha até mapas de calor e muito mais.
+    - **Insights em Tempo Real:** Com o Power BI, fornecemos insights que impulsionam decisões e estratégias. É aqui que dados se transformam em ação.
+
+    #### 🖼️ Veja Com Seus Próprios Olhos:
+    - **Diagrama das Tabelas:** Abaixo, você pode ver como as tabelas estão estruturadas no Power BI:
+    """, unsafe_allow_html=True)
+    
+    image12 = Image.open("./src/img/diagrama_powerbi.png")
+    st.image(image11, caption= "Diagrama de tabela no power bi - Gerado pelo grupo")
+
+    st.markdown("""
+    #### 🚀 Para uma Experiência Imersiva:
+    - **Explore Nosso Dashboard:** Não perca nosso dashboard interativo! Para uma experiência completa, visite a página 'Dashboard' no menu lateral e veja como a análise de dados pode ser transformadora.
+
+    Prepare-se para ser fascinado pela beleza dos dados e pelo poder das visualizações que transformam informações em ações.
+    """, unsafe_allow_html=True)
