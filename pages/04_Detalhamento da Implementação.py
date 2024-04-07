@@ -68,6 +68,10 @@ with tab3:
     - Para cada questão dos formulários, uma variável é criada, transformando respostas textuais em números predeterminados pela 'Passos Mágicos'.
     - A culminância desse processo é uma variável final, calculando a média dessas respostas, oferecendo uma visão quantitativa única das informações coletadas.
 
+    #### 🧠  Modelo de Análise de Sentimento
+
+    - O formulário da área de Psicologia será respondido pelos alunos, de forma a identificar 3 principais possíveis problemas: depressão, bullying e abuso. A análise de sentimento do modelo pré-construído do Power Automate servirá para identificar o estado atual do aluno, caso o mesmo esteja passando por algum desses três problemas, podendo apresentar sentimento positivo, neutro ou negativo.
+
     #### 💾 Armazenamento Estratégico no SharePoint:
     - As respostas dos formulários e os cálculos são armazenados meticulosamente em listas no SharePoint, tanto na forma textual integral quanto na forma de índices calculados.
 
